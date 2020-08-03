@@ -1,0 +1,20 @@
+[debug] [2020-07-14T19:11:03.624Z] ----------------------------------------------------------------------
+[debug] [2020-07-14T19:11:03.628Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\New User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-07-14T19:11:03.629Z] CLI Version:   8.5.0
+[debug] [2020-07-14T19:11:03.629Z] Platform:      win32
+[debug] [2020-07-14T19:11:03.629Z] Node Version:  v12.18.1
+[debug] [2020-07-14T19:11:03.631Z] Time:          Tue Jul 14 2020 15:11:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-07-14T19:11:03.631Z] ----------------------------------------------------------------------
+[debug] [2020-07-14T19:11:03.631Z] 
+[debug] [2020-07-14T19:11:03.645Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-14T19:11:03.646Z] > authorizing via signed-in user
+[debug] [2020-07-14T19:11:03.647Z] [iam] checking project port-7651e for permissions ["firebase.projects.get"]
+[debug] [2020-07-14T19:11:03.652Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/port-7651e:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-14T19:11:24.714Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. connect ETIMEDOUT 216.58.223.202:443
+[debug] [2020-07-14T19:11:24.716Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/port-7651e  
+ 
+[debug] [2020-07-14T19:12:06.771Z] Error: connect ETIMEDOUT 216.58.223.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.202:443
